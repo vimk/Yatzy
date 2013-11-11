@@ -23,4 +23,8 @@ public class Dice {
         Random ran = new Random();
         value = ran.nextInt(MAX_VALUE) + 1;
     }
+
+    public void setValue(int value) {
+        this.value = value;
+    }  
 }

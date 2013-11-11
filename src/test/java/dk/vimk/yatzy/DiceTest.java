@@ -4,6 +4,7 @@
  */
 package dk.vimk.yatzy;
 
+import static junit.framework.Assert.assertEquals;
 import junit.framework.TestCase;
 
 /**
@@ -27,9 +28,11 @@ public class DiceTest extends TestCase {
     }
 
     public void testDiceRoll() {
-
-        Dice d1 = new Dice();
-        d1.roll();
-        //få den til at roll fx 10 gange for at se om den holder sig inde for værdierne 
+        
+        Dice die1 = new Dice();
+        
+        die1.setValue(4);
+        
+        assertEquals(4, die1.getValue());
     }
 }
