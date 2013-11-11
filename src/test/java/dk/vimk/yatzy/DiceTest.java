@@ -27,7 +27,7 @@ public class DiceTest extends TestCase {
         super.tearDown();
     }
 
-    public void testDiceRoll() {
+    public void testGetValue() {
         
         Dice die1 = new Dice();
         

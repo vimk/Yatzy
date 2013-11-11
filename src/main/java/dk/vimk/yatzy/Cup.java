@@ -23,6 +23,14 @@ public class Cup {
         }
     }
 
+    public Dice[] getDiceVar() {
+        return diceVar;
+    }
+
+    public void setDiceVar(Dice[] diceVar) {
+        this.diceVar = diceVar;
+    }
+
     public void hold() {
         
     }
